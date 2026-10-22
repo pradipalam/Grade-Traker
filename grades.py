@@ -24,3 +24,7 @@ def letter_grade(score):
 def highest(grades):
     """Return the highest grade."""
     return max(grades)
+    
+def lowest(grades):
+    """Return the lowest grade."""
+    return min(grades)
